@@ -33,10 +33,10 @@ def authenticate_user(username, password):
 # OpenAI API 인증 정보 설정
 from dotenv import load_dotenv
 
-# OPENAI_API_KEY = 
-# openai.api_key = OPENAI_API_KEY
-load_dotenv('env/data.env')
-print(os.getenv('OPENAI_API_KEY'))
+OPENAI_API_KEY = ***********
+openai.api_key = OPENAI_API_KEY
+#load_dotenv('env/data.env')
+#print(os.getenv('OPENAI_API_KEY'))
 
 
 # 이전 대화 내용을 저장할 리스트
