@@ -150,5 +150,5 @@ def chat2():
 def chat():
     return render_template('dashboard.html', chat_history=format_chat_history(history_message))
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+#    app.run(debug=True)
